@@ -1,0 +1,48 @@
+/**
+
+Flow (1.1) is a free typeface built for wireframing by Dan Ross
+http://danross.co/flow/
+
+Copyright Dan Ross 2017
+
+d@danross.co
+http://twitter.com/hypd/
+
+License: SIL Open Font License (OFL)
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+**/
+
+@font-face {
+    font-family: flow-circular;
+    src: url("fonts/flow-circular.otf"),
+         url("fonts/flow-circular.woff") format('woff');
+}
+
+@font-face {
+    font-family: flow-rounded;
+    src: url("fonts/flow-rounded.otf"),
+         url("fonts/flow-rounded.woff") format('woff');
+}
+
+@font-face {
+    font-family: flow-block;
+    src: url("fonts/flow-block.otf"),
+         url("fonts/flow-block.woff") format('woff');
+}
+
+.flow {
+  font-family: 'flow-circular' !important;
+}
+
+.flow-circular {
+    font-family: 'flow-circular' !important;
+}
+
+.flow-rounded {
+    font-family: 'flow-rounded' !important;
+}
+
+.flow-block {
+    font-family: 'flow-block' !important;
+}
