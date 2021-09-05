@@ -1,5 +1,4 @@
-/**
-
+/*
 Flow (1.1) is a free typeface built for wireframing by Dan Ross
 http://danross.co/flow/
 
@@ -10,39 +9,40 @@ http://twitter.com/hypd/
 
 License: SIL Open Font License (OFL)
 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-
-**/
+*/
 
 @font-face {
-    font-family: flow-circular;
-    src: url("fonts/flow-circular.otf"),
-         url("fonts/flow-circular.woff") format('woff');
+    font-family: 'Flow';
+    src: url("./fonts/flow-rounded.otf"), url("fonts/flow-rounded.woff") format('woff');
 }
 
 @font-face {
-    font-family: flow-rounded;
-    src: url("fonts/flow-rounded.otf"),
-         url("fonts/flow-rounded.woff") format('woff');
+    font-family: 'Flow-Circular';
+    src: url("./fonts/flow-circular.otf"), url("./fonts/flow-circular.woff") format('woff');
 }
 
 @font-face {
-    font-family: flow-block;
-    src: url("fonts/flow-block.otf"),
-         url("fonts/flow-block.woff") format('woff');
+    font-family: 'Flow-Rounded';
+    src: url("./fonts/flow-rounded.otf"), url("./fonts/flow-rounded.woff") format('woff');
 }
 
-.flow {
-  font-family: 'flow-circular' !important;
+@font-face {
+    font-family: 'Flow-Block';
+    src: url("./fonts/flow-block.otf"), url("./fonts/flow-block.woff") format('woff');
 }
 
-.flow-circular {
-    font-family: 'flow-circular' !important;
+.font--flow {
+  font-family: 'Flow' !important;
 }
 
-.flow-rounded {
-    font-family: 'flow-rounded' !important;
+.font--flow-circular {
+    font-family: 'Flow-Circular' !important;
 }
 
-.flow-block {
-    font-family: 'flow-block' !important;
+.font--flow-rounded {
+    font-family: 'Flow-Rounded' !important;
+}
+
+.font--flow-block {
+    font-family: 'Flow-Block' !important;
 }
