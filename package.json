@@ -5,5 +5,16 @@
   "repository": "https://github.com/socheatsok78/flow-fonts",
   "homepage": "https://github.com/socheatsok78/flow-fonts#readme",
   "author": "Socheat Sok <alex@socheat.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "font",
+    "fontface",
+    "flow"
+  ],
+  "directories": {
+    "fonts": "fonts"
+  },
+  "files": [
+    "style.css"
+  ]
 }
