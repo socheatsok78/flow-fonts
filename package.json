@@ -15,6 +15,7 @@
     "fonts": "fonts"
   },
   "files": [
+    "fonts",
     "style.css"
   ]
 }
